@@ -53,7 +53,7 @@ def treat_plate(plate_content):
 
 def make_draw(image,position,plate_resource,venal,marca,cor):
     #reading images
-    square = 'square.png'
+    square = 'resource/square.png'
     headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55"}
     req = requests.get(plate_resource,headers=headers).content
     plate = 'plate.webp'
@@ -120,7 +120,7 @@ def make_draw(image,position,plate_resource,venal,marca,cor):
     #inserting text
     def put_text(image,position,text,size=72,color_text=(0,0,0)):
         im_pil = Image.fromarray(image)
-        font = ImageFont.truetype("font.ttf", size=size)
+        font = ImageFont.truetype("resource/font.ttf", size=size)
         draw = ImageDraw.Draw(im_pil)
         draw.text(position, text, fill=color_text, font=font)
         image = np.asarray(im_pil)
