@@ -2,7 +2,7 @@
 <h3 class="code-line" data-line-start=1 data-line-end=2 ><a id="_YOLNP__You_Only_Look_Number_Plates__1"></a><em>YOLNP - You Only Look Number Plates</em></h6>
 <h3 class="code-line" data-line-start=3 data-line-end=4 ><a id="Description_3"></a>Description</h3>
 <p class="has-line-data" data-line-start="4" data-line-end="6"><em>Warning: ALPR-YOLOV4 is a personal data science project under development.</em><br>
-YOLNP is a tool that uses YOLOv4 for the extraction of plates in the image, Tesseract and PaddleOCR for OCR. The model for extracting plates and characters has already been completed, leaving only the personalized OCR training with the tools intended for this. <br><a href="https://drive.google.com/drive/folders/1IH1lOXqRhUA_iaxbYrO-cnpN6CJJdTyj?usp=sharing">Weights Link</a></p>
+YOLNP is a tool that uses YOLOv4 for the extraction of plates in the image, Tesseract and PaddleOCR for OCR. The model for extracting plates and characters has already been completed, leaving only the personalized OCR training with the tools intended for this. <br><a href="https://bit.ly/3A1fgSG">Weights Link</a></p>
 
 <p class="has-line-data" data-line-start="7" data-line-end="8"><img src="https://i.imgur.com/YhQN8ST.png" alt="Cars"></p>
 
